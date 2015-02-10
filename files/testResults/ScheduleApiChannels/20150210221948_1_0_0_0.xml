@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>ScheduleApiChannels</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>854</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /home/patnaj/repos/RestFixture/*&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table:smartrics.rest.fitnesse.fixture.RestFixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://lgi.io/kraken/v2/schedule/data/NL/channels.json'&gt;/data/NL/channels.json&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;200&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;Access-Control-Allow-Credentials&amp;nbsp;:&amp;nbsp;true&lt;br/&gt;Access-Control-Allow-Headers&amp;nbsp;:&amp;nbsp;x-auth-id,x-auth-key,app_key,app_id,Keep-Alive,User-Agent,X-Requested-With,X-Real-IP,X-Forwarded-For,If-Modified-Since,Cache-Control,Content-Type,authorization,X-HTTP-Method-Override&lt;br/&gt;Access-Control-Allow-Methods&amp;nbsp;:&amp;nbsp;GET,&amp;nbsp;POST,&amp;nbsp;PUT,&amp;nbsp;DELETE,&amp;nbsp;OPTIONS,&amp;nbsp;HEAD&lt;br/&gt;Access-Control-Allow-Origin&amp;nbsp;:&amp;nbsp;*&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json;&amp;nbsp;charset=utf-8&lt;br/&gt;Date&amp;nbsp;:&amp;nbsp;Tue,&amp;nbsp;10&amp;nbsp;Feb&amp;nbsp;2015&amp;nbsp;21:20:52&amp;nbsp;GMT&lt;br/&gt;Server&amp;nbsp;:&amp;nbsp;openresty&lt;br/&gt;Content-Length&amp;nbsp;:&amp;nbsp;1163&lt;br/&gt;Connection&amp;nbsp;:&amp;nbsp;keep-alive&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;jsonbody.paging.total&amp;nbsp;&amp;gt;&amp;nbsp;0&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;{"data":[{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/tv_rijnmond.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}},{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/mtv_music_24.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}},{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/lite_1.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}},{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/tv_oranje.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}}],"nextBatchLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels.json?limit=4&amp;offset=4&amp;fields=selfLink&amp;region.code=NL"},"paging":{"nextLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels.json?limit=4&amp;offset=4&amp;fields=selfLink&amp;region.code=NL"},"total":154,"limit":4,"offset":0}}&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;let&lt;/td&gt;
+		&lt;td&gt;channelCount&lt;/td&gt;
+		&lt;td&gt;body&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;//paging&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;http://lgi.io/kraken/v2/schedule/data/NL/channels.json?limit=4&amp;offset=4&amp;fields=selfLink&amp;region.code=NL&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;154&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;4&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;0&lt;/div&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ScheduleApiChannels</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='tableTable_0_0', instruction='make', instanceName='tableTable_0', className='smartrics.rest.fitnesse.fixture.RestFixture', args=[&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table:smartrics.rest.fitnesse.fixture.RestFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_0_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table:smartrics.rest.fitnesse.fixture.RestFixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_0_1', instruction='call', instanceName='tableTable_0', methodName='doTable', args=[[[GET, /data/NL/channels.json, , , jsonbody.paging.total &gt; 0], [let, channelCount, body, //paging, ]]]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_0_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+      <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>854</totalRunTimeInMillis>
+  
+</testResults>
+

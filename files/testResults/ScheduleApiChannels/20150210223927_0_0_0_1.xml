@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>ScheduleApiChannels</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>989</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /home/patnaj/repos/RestFixture/*&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table:smartrics.rest.fitnesse.fixture.RestFixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://lgi.io/kraken/v2/schedule/data/NL/channels.json'&gt;/data/NL/channels.json&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;200&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;Access-Control-Allow-Credentials&amp;nbsp;:&amp;nbsp;true&lt;br/&gt;Access-Control-Allow-Headers&amp;nbsp;:&amp;nbsp;x-auth-id,x-auth-key,app_key,app_id,Keep-Alive,User-Agent,X-Requested-With,X-Real-IP,X-Forwarded-For,If-Modified-Since,Cache-Control,Content-Type,authorization,X-HTTP-Method-Override&lt;br/&gt;Access-Control-Allow-Methods&amp;nbsp;:&amp;nbsp;GET,&amp;nbsp;POST,&amp;nbsp;PUT,&amp;nbsp;DELETE,&amp;nbsp;OPTIONS,&amp;nbsp;HEAD&lt;br/&gt;Access-Control-Allow-Origin&amp;nbsp;:&amp;nbsp;*&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json;&amp;nbsp;charset=utf-8&lt;br/&gt;Date&amp;nbsp;:&amp;nbsp;Tue,&amp;nbsp;10&amp;nbsp;Feb&amp;nbsp;2015&amp;nbsp;21:40:31&amp;nbsp;GMT&lt;br/&gt;Server&amp;nbsp;:&amp;nbsp;openresty&lt;br/&gt;Content-Length&amp;nbsp;:&amp;nbsp;1170&lt;br/&gt;Connection&amp;nbsp;:&amp;nbsp;keep-alive&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;jsonbody.paging.total&amp;nbsp;&amp;gt;&amp;nbsp;0&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;{"data":[{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/mtv_brand_new.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}},{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/ketnet.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}},{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/fashiontv.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}},{"selfLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels/omroep_gelderland.json?fields=broadcastsLink,entitlementCodes,genres,horizonLink,logicalPosition,logoLink,name,opengraphLink,ref,selfLink,synopsis"}}],"nextBatchLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels.json?limit=4&amp;offset=4&amp;fields=selfLink&amp;region.code=NL"},"paging":{"nextLink":{"href":"http://lgi.io/kraken/v2/schedule/data/NL/channels.json?limit=4&amp;offset=4&amp;fields=selfLink&amp;region.code=NL"},"total":154,"limit":4,"offset":0}}&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;let&lt;/td&gt;
+		&lt;td&gt;nextBatchLink&lt;/td&gt;
+		&lt;td&gt;body&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;//paging/nextLink&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;http://lgi.io/kraken/v2/schedule/data/NL/channels.json?limit=4&amp;offset=4&amp;fields=selfLink&amp;region.code=NL&lt;/div&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;let&lt;/td&gt;
+		&lt;td&gt;$contentLength&lt;/td&gt;
+		&lt;td&gt;header&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;Content-Length:(.+)&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;1170&lt;/div&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table:smartrics.rest.fitnesse.fixture.RestFixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://lgi.io/kraken/v2/schedule%contentLength%'&gt;%contentLength%&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;404&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;Content-Type&amp;nbsp;:&amp;nbsp;text/html&lt;br/&gt;Date&amp;nbsp;:&amp;nbsp;Tue,&amp;nbsp;10&amp;nbsp;Feb&amp;nbsp;2015&amp;nbsp;21:40:32&amp;nbsp;GMT&lt;br/&gt;Server&amp;nbsp;:&amp;nbsp;openresty&lt;br/&gt;Content-Length&amp;nbsp;:&amp;nbsp;162&lt;br/&gt;Connection&amp;nbsp;:&amp;nbsp;keep-alive&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;jsonbody.paging.total &amp;gt; 0 &lt;span class="error"&gt;&lt;div&gt;jsonbody.paging.total&amp;nbsp;&amp;gt;&amp;nbsp;0&lt;br/&gt;&lt;hr/&gt;&lt;br/&gt;&lt;code&gt;java.lang.IllegalArgumentException:&amp;nbsp;Cannot&amp;nbsp;evaluate&amp;nbsp;'jsonbody.paging.total&amp;nbsp;&amp;gt;&amp;nbsp;0'&amp;nbsp;in&amp;nbsp;&amp;lt;html&amp;gt;&lt;br/&gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;404&amp;nbsp;Not&amp;nbsp;Found&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&lt;br/&gt;&amp;lt;body&amp;nbsp;bgcolor="white"&amp;gt;&lt;br/&gt;&amp;lt;center&amp;gt;&amp;lt;h1&amp;gt;404&amp;nbsp;Not&amp;nbsp;Found&amp;lt;/h1&amp;gt;&amp;lt;/center&amp;gt;&lt;br/&gt;&amp;lt;hr&amp;gt;&amp;lt;center&amp;gt;nginx&amp;lt;/center&amp;gt;&lt;br/&gt;&amp;lt;/body&amp;gt;&lt;br/&gt;&amp;lt;/html&amp;gt;&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.support.XPathBodyTypeAdapter.equals(XPathBodyTypeAdapter.java:77)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.process(RestFixture.java:1008)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.completeHttpMethodExecution(RestFixture.java:969)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:895)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.doMethod(RestFixture.java:883)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.GET(RestFixture.java:557)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke0(Native&amp;nbsp;Method)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;java.lang.reflect.Method.invoke(Method.java:483)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.processRow(RestFixture.java:818)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.processSlimRow(RestFixture.java:1151)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.doTable(RestFixture.java:362)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke0(Native&amp;nbsp;Method)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;java.lang.reflect.Method.invoke(Method.java:483)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.instructions.Instruction.execute(Instruction.java:30)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.ListExecutor.execute(ListExecutor.java:83)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.serve(SlimServer.java:41)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.handle(SlimService.java:168)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.acceptOne(SlimService.java:176)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.accept(SlimService.java:138)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.startWithFactory(SlimService.java:66)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.main(SlimService.java:52)&lt;br/&gt;Caused&amp;nbsp;by:&amp;nbsp;java.lang.IllegalArgumentException:&amp;nbsp;last&amp;nbsp;response&amp;nbsp;body&amp;nbsp;cannot&amp;nbsp;be&amp;nbsp;parsed&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.support.Tools.toDocument(Tools.java:281)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.support.Tools.extractXPath(Tools.java:157)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.support.XPathBodyTypeAdapter.eval(XPathBodyTypeAdapter.java:92)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.support.XPathBodyTypeAdapter.equals(XPathBodyTypeAdapter.java:72)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;38&amp;nbsp;more&lt;br/&gt;Caused&amp;nbsp;by:&amp;nbsp;org.xml.sax.SAXParseException;&amp;nbsp;lineNumber:&amp;nbsp;6;&amp;nbsp;columnNumber:&amp;nbsp;3;&amp;nbsp;The&amp;nbsp;element&amp;nbsp;type&amp;nbsp;"hr"&amp;nbsp;must&amp;nbsp;be&amp;nbsp;terminated&amp;nbsp;by&amp;nbsp;the&amp;nbsp;matching&amp;nbsp;end-tag&amp;nbsp;"&amp;lt;/hr&amp;gt;".&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;org.apache.xerces.parsers.DOMParser.parse(Unknown&amp;nbsp;Source)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown&amp;nbsp;Source)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.support.Tools.toDocument(Tools.java:275)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;41&amp;nbsp;more&lt;br/&gt;&lt;/code&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ScheduleApiChannels</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='tableTable_0_0', instruction='make', instanceName='tableTable_0', className='smartrics.rest.fitnesse.fixture.RestFixture', args=[&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table:smartrics.rest.fitnesse.fixture.RestFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_0_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table:smartrics.rest.fitnesse.fixture.RestFixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_0_1', instruction='call', instanceName='tableTable_0', methodName='doTable', args=[[[GET, /data/NL/channels.json, , , jsonbody.paging.total &gt; 0], [let, nextBatchLink, body, //paging/nextLink, ], [let, $contentLength, header, Content-Length:(.+), ]]]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_0_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='smartrics.rest.fitnesse.fixture.RestFixture', args=[&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table:smartrics.rest.fitnesse.fixture.RestFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table:smartrics.rest.fitnesse.fixture.RestFixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[GET, %contentLength%, , , jsonbody.paging.total &gt; 0]]]}</instruction>
+        <slimResult>error()</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>tableTable_1_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>990</totalRunTimeInMillis>
+  
+</testResults>
+

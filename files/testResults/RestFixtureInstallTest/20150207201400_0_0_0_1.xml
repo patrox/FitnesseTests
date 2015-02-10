@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>RestFixtureInstallTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>917</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /home/patnaj/repos/RestFixture/*&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;http://google12312.pl&lt;/td&gt;
+		&lt;td colspan="3"&gt;sequence.png&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;GET &lt;span class="error"&gt;&lt;div&gt;error:&amp;lt;div&amp;gt;Execution&amp;nbsp;of&amp;nbsp;Get&amp;nbsp;caused&amp;nbsp;exception&amp;nbsp;'Http&amp;nbsp;call&amp;nbsp;failed&amp;nbsp;for&amp;nbsp;IO&amp;nbsp;failure'&amp;lt;/div&amp;gt;&lt;br/&gt;&lt;hr/&gt;&lt;br/&gt;&lt;code&gt;java.lang.RuntimeException:&amp;nbsp;Method&amp;nbsp;named&amp;nbsp;GET&amp;nbsp;threw&amp;nbsp;an&amp;nbsp;exception&amp;nbsp;when&amp;nbsp;executing.&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.processRow(RestFixture.java:834)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.processSlimRow(RestFixture.java:1151)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.doTable(RestFixture.java:362)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq.doTable(SlimRestFixtureWithSeq.java:271)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke0(Native&amp;nbsp;Method)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;java.lang.reflect.Method.invoke(Method.java:483)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.instructions.Instruction.execute(Instruction.java:30)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.ListExecutor.execute(ListExecutor.java:83)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimServer.serve(SlimServer.java:41)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.handle(SlimService.java:168)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.acceptOne(SlimService.java:176)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.accept(SlimService.java:138)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.startWithFactory(SlimService.java:66)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;fitnesse.slim.SlimService.main(SlimService.java:52)&lt;br/&gt;Caused&amp;nbsp;by:&amp;nbsp;java.lang.reflect.InvocationTargetException&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke0(Native&amp;nbsp;Method)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;java.lang.reflect.Method.invoke(Method.java:483)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.RestFixture.processRow(RestFixture.java:818)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;29&amp;nbsp;more&lt;br/&gt;Caused&amp;nbsp;by:&amp;nbsp;java.lang.NullPointerException&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq.GET(SlimRestFixtureWithSeq.java:311)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;34&amp;nbsp;more&lt;br/&gt;&lt;/code&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;/RestFixtureInstallTest2?rss&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;//title[text()='RestFixtureInstallTest']&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;img src="files/restfixture/sequence.png"/&gt;&lt;br/&gt;</content>
+    <relativePageName>RestFixtureInstallTest</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='tableTable_0_0', instruction='make', instanceName='tableTable_0', className='smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq', args=[http://google12312.pl, sequence.png]}</instruction>
+        <slimResult>pass(Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_0_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_0_1', instruction='call', instanceName='tableTable_0', methodName='doTable', args=[[[GET, /RestFixtureInstallTest2?rss, , , //title[text()='RestFixtureInstallTest']]]]}</instruction>
+        <slimResult>error()</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>tableTable_0_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>917</totalRunTimeInMillis>
+  
+</testResults>
+

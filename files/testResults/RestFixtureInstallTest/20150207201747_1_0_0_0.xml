@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>RestFixtureInstallTest</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>1128</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /home/patnaj/repos/RestFixture/*&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;http://localhost:8080&lt;/td&gt;
+		&lt;td colspan="3"&gt;sequence.png viewBox="0 0 200 200" width="100" height="150"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://localhost:8080/RestFixtureInstallTest?rss'&gt;/RestFixtureInstallTest?rss&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;200&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;Server&amp;nbsp;:&amp;nbsp;FitNesse-v20150114&lt;br/&gt;Connection&amp;nbsp;:&amp;nbsp;close&lt;br/&gt;Content-Length&amp;nbsp;:&amp;nbsp;378&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;text/xml&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;//title[text()='RestFixtureInstallTest']&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;&amp;lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"&amp;nbsp;standalone="no"?&amp;gt;&lt;br/&gt;&amp;lt;rss&amp;nbsp;version="2.0"&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;lt;channel&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;title&amp;gt;FitNesse:&amp;lt;/title&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;item&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;title&amp;gt;RestFixtureInstallTest&amp;lt;/title&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;pubDate&amp;gt;Sat,&amp;nbsp;7&amp;nbsp;Feb&amp;nbsp;2015&amp;nbsp;20:17:44&amp;nbsp;+0100&amp;lt;/pubDate&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;link&amp;gt;http://rf711/RestFixtureInstallTest&amp;lt;/link&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;description&amp;gt;Sat,&amp;nbsp;7&amp;nbsp;Feb&amp;nbsp;2015&amp;nbsp;20:17:44&amp;nbsp;+0100&amp;lt;/description&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/item&amp;gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;lt;/channel&amp;gt;&lt;br/&gt;&amp;lt;/rss&amp;gt;&lt;br/&gt;&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;img src="files/restfixture/sequence.png"/&gt;&lt;br/&gt;</content>
+    <relativePageName>RestFixtureInstallTest</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='tableTable_0_0', instruction='make', instanceName='tableTable_0', className='smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq', args=[http://localhost:8080, sequence.png viewBox="0 0 200 200" width="100" height="150"]}</instruction>
+        <slimResult>pass(Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_0_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_0_1', instruction='call', instanceName='tableTable_0', methodName='doTable', args=[[[GET, /RestFixtureInstallTest?rss, , , //title[text()='RestFixtureInstallTest']]]]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_0_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+      <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1128</totalRunTimeInMillis>
+  
+</testResults>
+

@@ -1,0 +1,8 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+
+!path /home/patnaj/repos/RestFixture/*
+
+|Table:smartrics.rest.fitnesse.fixture.RestFixture | http://lgi.io |
+| GET | /kraken/v2/schedule/data/NL/channels.json | | | //title[text()='RestFixtureInstallTest']|

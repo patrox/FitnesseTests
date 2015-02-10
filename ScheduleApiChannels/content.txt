@@ -1,0 +1,9 @@
+!define TEST_SYSTEM {slim}
+!path /home/patnaj/repos/RestFixture/*
+| Table:smartrics.rest.fitnesse.fixture.RestFixture | http://lgi.io/kraken/v2/schedule |
+| GET | /data/NL/channels.json | 200 | | jsonbody.paging.total > 0 |
+| let | nextBatchLink | body | //paging/nextLink | |
+| let | contentLength | header | Content-Length:(.+) | |
+
+| Table:smartrics.rest.fitnesse.fixture.RestFixture | http://lgi.io/kraken/v2/schedule |
+| GET | %nextBatchLink% | | | jsonbody.paging.total > 0 |

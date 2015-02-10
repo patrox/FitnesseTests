@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>ScheduleApiChannels</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>5</exceptions>
+    </counts>
+    <runTimeInMillis>168</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: /home/patnaj/repos/RestFixture/*&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture.RestFixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;/data/NL/channels.json&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;jsonbody.data.length == 4 &amp;amp;&amp;amp; jsonbody.hasOwnProperty('nextBatchLink') &amp;amp;&amp;amp; jsonbody.hasOwnProperty('paging')&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;let &lt;span class="error"&gt;Method setGET[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;nextBatchLink &lt;span class="error"&gt;Method setDataNLChannelsJson[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;body &lt;span class="error"&gt;Method set[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;/jsonbody/nextBatchLink &lt;span class="error"&gt;Method set[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="error"&gt;Method setJsonbodyDataLength4JsonbodyHasOwnPropertyNextBatchLinkJsonbodyHasOwnPropertyPaging[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ScheduleApiChannels</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='smartrics.rest.fitnesse.fixture.RestFixture', args=[&lt;a href="http://lgi.io/kraken/v2/schedule"&gt;http://lgi.io/kraken/v2/schedule&lt;/a&gt;]}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture.RestFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>smartrics.rest.fitnesse.fixture.RestFixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setGET', args=[let]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_4</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>Method setGET[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_5', instruction='call', instanceName='decisionTable_0', methodName='setDataNLChannelsJson', args=[nextBatchLink]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_5</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>Method setDataNLChannelsJson[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='set', args=[body]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_6</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>Method set[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_7', instruction='call', instanceName='decisionTable_0', methodName='set', args=[/jsonbody/nextBatchLink]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_7</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>Method set[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_8', instruction='call', instanceName='decisionTable_0', methodName='setJsonbodyDataLength4JsonbodyHasOwnPropertyNextBatchLinkJsonbodyHasOwnPropertyPaging', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_0_8</instructionId>
+                              <type>VoidReturnExpectation</type>
+                                        <evaluationMessage>Method setJsonbodyDataLength4JsonbodyHasOwnPropertyNextBatchLinkJsonbodyHasOwnPropertyPaging[1] not found in smartrics.rest.fitnesse.fixture.RestFixture.</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>168</totalRunTimeInMillis>
+  
+</testResults>
+

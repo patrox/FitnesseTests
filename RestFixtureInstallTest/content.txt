@@ -1,0 +1,8 @@
+!define TEST_SYSTEM {slim}
+
+!path /home/patnaj/repos/RestFixture/*
+
+!|Table:smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq|http://localhost:8080|sequence.png viewBox="0 0 400 400" width="400" height="400"|
+|GET |/RestFixtureInstallTest?rss|||//title[text()='RestFixtureInstallTest']|
+
+!img http://files/restfixture/sequence.png
